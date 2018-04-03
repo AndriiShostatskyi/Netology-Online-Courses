@@ -1,0 +1,36 @@
+# NetologyPhp-MySqlProject
+This is a final project for Netology's PHP/MySQL online-course
+>
+# # 1. Контактная информация
+Автор: Андрей Шостацкий  <br />
+Email: shostatscky.andriy@yandex.ua <br />
+Дата создания:  26.09.2016 <br />
+>
+ 
+>
+# # 2. Инструкция по установке и первому запуску
+Проект создан на фреймворке Laravel. Для установки и запуска нужно сделать следующее:
+* скопировать на ваш сервер папку “laravel” (структура фреймворка и другие рабочие файлы);
+* сделать на сервере импорт базы данных из файла faq.sql;
+* в laravel/.env  указать название базы данных, имя пользователя и пароль. То же самое сделать в config/database.php
+* если сервер Nginx, в настройки сервера добавляем:
+```php
+location / { 
+try_files $uri $uri/ /index.php?$query_string; 
+}
+```
+* для сервера Apache может понадобится настройка public/.htaccess или самого сервера;
+* заходим через public/index.php;
+* для админа логин admin и пароль admin; 
+* находим Телеграмм-бота @ShostatskyiBot; 
+* чтобы открыть проект в  пространстве Cloud9, нужно запустить (нажать run) файл public/index.php </br>
+>
+
+>
+# # 3. Описание 
+Задание https://docs.google.com/document/d/1k-I9iYPbpbxfnHn1STO60dY7N1zOhjUVcKLe4Xb1ceE/edit 
+Описание созданного проекта находится на https://docs.google.com/document/d/1EktR0lz7dkHoPIBH9KzBTlVZvR-FgGqRdCK-Ow6LeSs/edit  и https://docs.google.com/document/d/17ocApyJfcctrkesfE5vfygkVCSbl3BETy6pJx7zJbXg/edit </br>
+UML-схема находится на https://docs.google.com/document/d/1F84SL6E8h7I-lUBb4MXUQjWRiCmknvyfIDuKxf4RLFE/edit </br>
+>
+ 
+

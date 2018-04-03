@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    
+  <title>Издательство «Фрай, без штанов и Бендер»</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2">
+      
+  <!--Import my css styles-->
+  <link rel="stylesheet" href="css/main.css">
+      
+  <!--Import bootstrap and jquery-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+  <!--Import jquery-ui for drag + drop + sortable -->
+  <link rel="stylesheet" href="jquery-ui.css">
+  <script src="jquery-ui.js"></script>
+       
+  <!--Import my scripts for this page-->
+  <script src="js/index.js"></script>
+        
+</head>
+<body>
+    
+<!--Logo and search input apear here -->
+<div class="container head">
+    
+  <div class="row">
+      
+    <div class="col-xs-12 col-xm-6 col-md-4 col-lg-4 logo">  
+      <a href="index.html"> <img src="i/logo.png" alt="Logo appears here"> </a>
+    </div>
+      
+    <div class="col-xs-12 col-xm-6 col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4">  
+      <input class="search" id="search" type="text" placeholder="Поиск, скорее всего, не работает">
+    </div>
+      
+  </div>
+
+</div>
+   
+<!-- Kinda jumbotron apear here, calling extra attention  -->   
+<div class="container">
+    
+  <h1 class="title"> Самое незаметное издательство </h1>
+  <h3 class="call col-sm-offset-0 col-xs-offset-0 col-lg-offset-1 col-md-offset-1"> Перетаскивайте книги ниже с места на место. Это то, чем мы любим больше всего заниматься. Попробуйте, вам понравится. </h3>
+    
+</div>
+
+<!-- Main contents - books appears here  -->
+<div class="container">
+  
+  <ul id="sortable"> </ul>
+    
+</div> 
+    
+<!-- Load more books button appears here  -->
+<div class="text-center">
+
+  <button class="morebooks" type="submit"> Еще несколько книг</button>
+    
+</div>  
+    
+<!-- Image and link to the about-page appear here  -->
+<div class="text-center">
+  
+  <a href="about_shop.html"> <img class="text-center" src="i/footer.png"> </a>
+    
+</div> 
+    
+</body>
+    
+</html>
